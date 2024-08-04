@@ -1,4 +1,4 @@
-# MIT 6.S191 DeepLearningLabs
+# sujirou's journey to MIT 6.S191 DeepLearningLabs
 MIT 6.S191 Introduction to Deep Learning
 
 MIT's introductory program on deep learning methods with applications in computer vision, and more!
