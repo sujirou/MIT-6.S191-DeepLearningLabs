@@ -1,17 +1,17 @@
-#Gradient Descent for Linear Regression
+#only for for Linear Regression animolz!
 # yhat = wx + b 
 # loss = (y-yhat)**2 / N 
 import numpy as np
-# Initialise some parameters
+# initialise  parameters
 x = np.random.randn(10,1)
 y = 5*x + np.random.rand()
 # Parameters
 w = 0.0 
 b = 0.0 
-# Hyperparameter 
+# hyperparameter 
 learning_rate = 0.01
 
-# Create gradient descent function
+# gradient descent function
 def descend(x, y, w, b, learning_rate): 
     dldw = 0.0 
     dldb = 0.0 
@@ -21,12 +21,12 @@ def descend(x, y, w, b, learning_rate):
        dldw += -2*xi*(yi-(w*xi+b))
        dldb += -2*(yi-(w*xi+b))
     
-    # Make an update to the w parameter 
+    # update the weight parameter 
     w = w - learning_rate*(1/N)*dldw
     b = b - learning_rate*(1/N)*dldb
     return w, b 
 
-# Iteratively make updates
+# make updates (iteratively)
 for epoch in range(800): 
     w,b = descend(x,y,w,b,learning_rate)
     yhat = w*x + b
