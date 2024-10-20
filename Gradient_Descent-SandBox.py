@@ -1,25 +1,4 @@
-
-
-
-# # print ('hello world')
-# import numpy as np
-
-# x = np.random.randn(10,1)
-# y = 2*x + np.random.rand()
-# w = 0.0
-# b = 0.0
-
-# #hyperparameter
-# learning_rate = 0.0
-
-# #create gradient descent function
-# def descend(x, y, w, b, learning_rate):
-#     dldw = 0.0
-#     dldb = 0.0
-#     N = x.shape[0]
-#     # loss = (y-(wx+b)))**2
-
-# Gradient Descent for Linear Regression
+#Gradient Descent for Linear Regression
 # yhat = wx + b 
 # loss = (y-yhat)**2 / N 
 import numpy as np
