@@ -1,4 +1,4 @@
-#only for for Linear Regression animolz!
+# only for for Linear Regression animolz!
 # yhat = wx + b 
 # loss = (y-yhat)**2 / N 
 import numpy as np
